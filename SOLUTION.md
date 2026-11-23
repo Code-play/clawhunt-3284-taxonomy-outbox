@@ -160,3 +160,8 @@ All identifiers, tags and examples are fictional. No client name, real person or
 real enterprise data appears in the code, documentation, tests or this document.
 No third-party SDK that sends data abroad is used; runtime configuration and
 credentials are read only from environment variables.
+
+## 10. Repository and pull request
+
+- Repository: https://github.com/Code-play/clawhunt-3284-taxonomy-outbox
+- Pull request: https://github.com/Code-play/clawhunt-3284-taxonomy-outbox/pull/1

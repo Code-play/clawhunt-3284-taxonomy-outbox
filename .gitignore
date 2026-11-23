@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.env
+.idea/
+.vscode/
+var/
+temporal_resource/
+problem-3284.json
+*.log

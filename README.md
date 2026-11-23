@@ -147,6 +147,9 @@ The test session recreates the schema with `alembic upgrade head`, then runs the
 acceptance, counterexample, relay/consumer, API and DDL tests. The suite needs a
 live PostgreSQL 16; it fails loudly instead of skipping.
 
+`TEST_DATABASE_URL` must point at a disposable database: the session fixture
+drops and recreates the `public` schema of that database.
+
 ## Integration points (matching engine and search index)
 
 The ticket allows interface stubs first, and the deliverable ships two working

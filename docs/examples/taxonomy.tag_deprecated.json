@@ -1,0 +1,42 @@
+{
+  "event_id": "00000000-0000-4000-8000-000000000103",
+  "event_type": "taxonomy.tag_deprecated",
+  "event_version": 1,
+  "occurred_at": "2026-01-15T08:30:00Z",
+  "org_id": "00000000-0000-4000-8000-000000000001",
+  "site_id": "00000000-0000-4000-8000-000000000002",
+  "aggregate_type": "taxonomy_tag",
+  "aggregate_id": "00000000-0000-4000-8000-000000000020",
+  "aggregate_version": 4,
+  "producer": "taxonomy",
+  "trace_id": "demo-trace-0001",
+  "payload": {
+    "dictionary_id": "00000000-0000-4000-8000-000000000010",
+    "dictionary_code": "industry",
+    "dictionary_version": 13,
+    "tag_id": "00000000-0000-4000-8000-000000000020",
+    "tag_code": "ai",
+    "tag_version": 4,
+    "tag_status": "deprecated",
+    "version": 4,
+    "change_summary": "Tag 'ai' deprecated in dictionary 'industry' (version 4).",
+    "changed_fields": [
+      "status"
+    ],
+    "before": {
+      "tag_id": "00000000-0000-4000-8000-000000000020",
+      "tag_code": "ai",
+      "tag_name": "Artificial Intelligence & ML",
+      "tag_status": "active",
+      "tag_version": 3
+    },
+    "after": {
+      "tag_id": "00000000-0000-4000-8000-000000000020",
+      "tag_code": "ai",
+      "tag_name": "Artificial Intelligence & ML",
+      "tag_status": "deprecated",
+      "tag_version": 4
+    },
+    "merged_into": null
+  }
+}

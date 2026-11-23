@@ -1,0 +1,36 @@
+{
+  "event_id": "00000000-0000-4000-8000-000000000101",
+  "event_type": "taxonomy.tag_activated",
+  "event_version": 1,
+  "occurred_at": "2026-01-15T08:30:00Z",
+  "org_id": "00000000-0000-4000-8000-000000000001",
+  "site_id": "00000000-0000-4000-8000-000000000002",
+  "aggregate_type": "taxonomy_tag",
+  "aggregate_id": "00000000-0000-4000-8000-000000000020",
+  "aggregate_version": 2,
+  "producer": "taxonomy",
+  "trace_id": "demo-trace-0001",
+  "payload": {
+    "dictionary_id": "00000000-0000-4000-8000-000000000010",
+    "dictionary_code": "industry",
+    "dictionary_version": 11,
+    "tag_id": "00000000-0000-4000-8000-000000000020",
+    "tag_code": "ai",
+    "tag_version": 2,
+    "tag_status": "active",
+    "version": 2,
+    "change_summary": "Tag 'ai' activated in dictionary 'industry' (version 2).",
+    "changed_fields": [
+      "status"
+    ],
+    "before": null,
+    "after": {
+      "tag_id": "00000000-0000-4000-8000-000000000020",
+      "tag_code": "ai",
+      "tag_name": "Artificial Intelligence",
+      "tag_status": "active",
+      "tag_version": 2
+    },
+    "merged_into": null
+  }
+}

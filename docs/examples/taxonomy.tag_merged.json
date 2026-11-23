@@ -1,0 +1,46 @@
+{
+  "event_id": "00000000-0000-4000-8000-000000000104",
+  "event_type": "taxonomy.tag_merged",
+  "event_version": 1,
+  "occurred_at": "2026-01-15T08:30:00Z",
+  "org_id": "00000000-0000-4000-8000-000000000001",
+  "site_id": "00000000-0000-4000-8000-000000000002",
+  "aggregate_type": "taxonomy_tag",
+  "aggregate_id": "00000000-0000-4000-8000-000000000020",
+  "aggregate_version": 5,
+  "producer": "taxonomy",
+  "trace_id": "demo-trace-0001",
+  "payload": {
+    "dictionary_id": "00000000-0000-4000-8000-000000000010",
+    "dictionary_code": "industry",
+    "dictionary_version": 14,
+    "tag_id": "00000000-0000-4000-8000-000000000020",
+    "tag_code": "ai",
+    "tag_version": 5,
+    "tag_status": "merged",
+    "version": 5,
+    "change_summary": "Tag 'ai' merged into 'ml' in dictionary 'industry' (version 5).",
+    "changed_fields": [
+      "merged_into_tag_id",
+      "status"
+    ],
+    "before": {
+      "tag_id": "00000000-0000-4000-8000-000000000020",
+      "tag_code": "ai",
+      "tag_name": "Artificial Intelligence & ML",
+      "tag_status": "deprecated",
+      "tag_version": 4
+    },
+    "after": {
+      "tag_id": "00000000-0000-4000-8000-000000000020",
+      "tag_code": "ai",
+      "tag_name": "Artificial Intelligence & ML",
+      "tag_status": "merged",
+      "tag_version": 5
+    },
+    "merged_into": {
+      "tag_id": "00000000-0000-4000-8000-000000000021",
+      "tag_code": "ml"
+    }
+  }
+}

@@ -9,3 +9,4 @@ var/
 temporal_resource/
 problem-3284.json
 *.log
+*.egg-info/
